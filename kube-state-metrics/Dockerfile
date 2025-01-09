@@ -1,1 +1,3 @@
-FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.14.0
+FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.11.0
+
+ENV TZ=PRC
